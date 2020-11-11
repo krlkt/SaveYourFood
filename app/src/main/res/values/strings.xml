@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Save Your Food</string>
+    <string name="title_activity_my_groceries">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_grocery_list">MainActivity</string>
+</resources>

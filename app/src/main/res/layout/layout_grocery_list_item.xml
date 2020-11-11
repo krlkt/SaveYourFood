@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:background="@color/lightYellow"
+    tools:context=".GroceryListActivity"
+    android:gravity="center_vertical"
+    >
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/mediumYellow"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/MyGrocery_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="55"
+        android:text="Im a Spaghetti"
+        android:textSize="20sp"
+        android:lines="1"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/MyGrocery_quantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="2.1 kg"
+        android:textSize="20sp"
+        android:lines="1"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/MyGrocery_timestamp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        android:text="10.10.2020"
+        android:textSize="16sp"
+        android:lines="1"
+        android:padding="10dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
